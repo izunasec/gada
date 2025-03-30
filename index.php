@@ -1,7 +1,5 @@
 <!DOCTYPE html>
 <html xmlns:wormhole="http://www.w3.org/1999/xhtml" lang="id-ID" class="slot online"><head>
-
-<meta name="google-site-verification" content="wczrRb8nZxU77ocoIG8OQqv0VwD2lYKtE1IGb0yGfXo" />
 <title>HOKI88BOS # Login Situs Slot Resmi Deposit Kilat Anti Rungkad Di jamin Cuan 2025</title>
 <meta name="description" content="HOKI88BOS merupakan situs slot resmi terpercaya yang menawarkan pengalaman bermain tanpa gangguan dengan deposit kilat. Dikenal dengan sistem yang cepat dan aman, pemain bisa menikmati permainan slot dengan lancar tanpa khawatir tentang masalah teknis. HOKI88BOS memastikan setiap transaksi aman dan transparan, memberikan peluang cuan maksimal di tahun 2025. Dengan dukungan customer service 24 jam, kamu bisa bermain kapan saja tanpa kendala. Jangan lewatkan kesempatan untuk meraih kemenangan besar di sini!" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
