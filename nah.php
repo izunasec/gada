@@ -3,9 +3,9 @@
 $brand = "TOTO123";
 $title = "$brand: Link Sistus Toto 4D Gacor dan Bandar Toto Macau Terpercaya";
 $keywords = "$brand";
-$thisPageLink = "https://www.radiosuperjovem.top/";
+$thisPageLink = "https://www.floridahouseboatvacationrentals.com/";
 $gsc = '<meta name="-----" />';
-$canonicalLink = "https://www.radiosuperjovem.top/";
+$canonicalLink = "https://www.floridahouseboatvacationrentals.com/";
 $canonical = "<link rel='canonical' href='$canonicalLink' />"; // harus format <link rel='canonical' href='$canonicalLink' />, kosong jika tidak perlu
 $description = "TOTO213 adalah situs terpercaya untuk Toto 4D dan Bandar Toto Macau, menyediakan layanan bermain yang aman, nyaman, dan mudah diakses dengan link gacor.";
 $author = "Admin Gege";
