@@ -41,23 +41,25 @@ if (isset($_GET['omak'])) {
 }
 
 // Variabel lainnya
-$link_moneysite = "https://hibrid.rs/?omak=" . urlencode($brand);
+$link_moneysite = "https://nailsdeep.com/?omak=" . urlencode($brand);
 
 // Meta informasi
 $gsc = "";
-$gambar = "https://studiointermedia.com/images/2025/04/25/walawe.jpeg"; // Gambar lama
+$gambar = "https://studiointermedia.com/images/2025/04/25/nails.jpeg"; // Gambar lama
 $alamat_toko = "$brand gacor";
 $logo = "https://studiointermedia.com/images/2025/04/25/log-bs505.png"; // Logo lama
 $linkout = "https://panaswak.site/daftar"; // Link lama
-$title = htmlspecialchars($brand . " 🔥 Menangkan Hadiah Menarik Hanya Dengan Satu Klik!", ENT_QUOTES, "UTF-8");
+$title = htmlspecialchars($brand . " 💥 Jackpot Terbesar Sudah Menanti! Mainkan Sekarang!", ENT_QUOTES, "UTF-8");
 $favicon = "https://studiointermedia.com/images/2025/04/24/pavicon.png"; // Favicon lama
 $author = "Admin $brand";
 $nama_toko = "BS GENG";
-$description = htmlspecialchars("Bergabunglah dengan $brand dan buktikan keberuntungan Anda! Menangkan hadiah menarik dengan setiap putaran dan rasakan sensasi permainan slot yang tak terlupakan. Mainkan sekarang dan menangkan hadiah fantastis!", ENT_QUOTES, "UTF-8");
-$amphtml = "https://bs505geng.online/omak/theat.html?$brand"; // AMP lama
-$artikel = htmlspecialchars("Dengan $brand, Anda bisa meraih kemenangan besar dalam hitungan detik! Cukup dengan satu klik, nikmati permainan slot yang menegangkan dan menangkan hadiah-hadiah menarik yang menanti Anda. Apakah Anda siap untuk menjadi pemenang?", ENT_QUOTES, "UTF-8");
+$description = htmlspecialchars("$brand hadir dengan permainan slot terbaik yang siap mengantarkanmu meraih jackpot terbesar! Setiap putaran membawa kesempatan besar, jangan sampai ketinggalan!", ENT_QUOTES, "UTF-8");
+$amphtml = "https://bs505geng.online/omak/nails.html?$brand"; // AMP lama
+$artikel = htmlspecialchars("Siapkah kamu meraih jackpot spektakuler di $brand? Setiap putaran memberi peluang besar untuk memenangkan hadiah fantastis. Ayo, buktikan keberuntunganmu sekarang juga dan bawa pulang kemenangan besar!", ENT_QUOTES, "UTF-8");
 
 ?>
+
+
 <!doctype html>
 <html xmlns:og="http://opengraphprotocol.org/schema/" xmlns:fb="http://www.facebook.com/2008/fbml" lang="en-US"
     data-authenticated-account>
